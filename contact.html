@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- navigation-bar-start -->
+     <header>
+        <div class="logo">
+            <!-- <a href="#">Home<span>Styler</span></a> -->
+             <!-- <img src="images/logo/logo1.png" alt="" width="200px" height="50vh"> -->
+             <img src="./images/Home_n_Style_logo_d5980dc2-b38d-43e9-9314-b5b5732e8111.avif" alt="" width="200px" height="60vh">
+        </div>
+             
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">&#9776;</label>
+
+        <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="design.html">Design<i class="fa-solid fa-caret-down" id="arrow"></i></a>
+
+                <!-- drop-down-start -->
+                 <!-- <ul class="Design-items">
+                        <li><a href="#">Furniture design</a></li>
+                        <li><a href="#">Lighting design</a></li>
+                        <li><a href="#">Decoration design</a></li>
+                        <li><a href="#">Kitchen design</a></li>
+                        <li><a href="#">Bathroom design</a></li>
+                 </ul> -->
+                <!-- drop-down-end -->
+            
+            </li>
+            <li><a href="buypage.html">Custom order</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">GPS</a></li>
+        </ul>
+        </div>
+
+     </header>
+     <br>
+       <!-- navigation-bar-end -->
+    <div class="hero">
+        <div class="overlay">
+            <div class="text">
+                <h1>Welcome to My Website</h1>
+                <p>This is a responsive theme with background image and overlay.</p>
+            </div>
+        </div>
+    </div> 
+    <br>
+
+<div class="contact-box">
+    <h2>Contact Us</h2>
+    <form id="contactForm" onsubmit="return submitForm()">
+        <div class="input-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="input-group">
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<br>
+
+<!-- ***FOOTER*** -->
+ <!-- footer-start -->
+ <!-- ***FOOTER*** -->
+ <footer>
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Info</h4>
+                <ul class="links">
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="footer-col">
+                <h4>Resourse</h4>
+                <ul class="links">
+                  <!-- <li><a href="#Furniture">Furniture</a></li> -->
+                  <p>Ideas</p>
+                  <p>Tutorial</p>
+                  <p>Helpcenter</p>
+                  <p>cooham App</p>                 
+                </ul>
+              </div>
+              
+              <div class="footer-col">
+                <h4>Contact</h4>
+                <ul class="links">
+                  <!-- <li><a href="#Furniture">Furniture</a></li> -->
+                  <p>Globels@office</p>
+                  <p>Landon,UK</p>
+                  <p>Newyork,Office</p>
+                  <p>sales@cooham.com</p>                 
+                </ul>
+              </div>
+
+            <div class="footer-col">
+                <h4>Homestyler</h4>
+                <p>
+                    Subscribe to our Design-items for a daily dose
+                    of structure, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="email" placeholder="Your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </section>
+</footer>
+
+<script src="contact.js"></script>
+</body>
+</html>
